@@ -1,14 +1,15 @@
-# typescript-node-template
-This is an out of the box project using node and typescript. Default module resolution is ESM.
+This is a debug tool for counting whiteboard elements in old-versioned YDoc
 
-## Run
+## Debug with YDoc binary file
 
 ```shell
-pnpm install
-pnpm start
+pnpm run file-source
 ```
 
-## Alternatively using ts-node-esm
-```shell
-pnpm start:ts-node-esm
+## With custom database
+
+modify database connection and table info at `src/db-source.ts`, then run
+
+```
+pnpm run db-source
 ```
