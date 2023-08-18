@@ -1,0 +1,25 @@
+{
+  "name": "node-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "file-source": "ts-node src/file-source.ts",
+    "db-source": "ts-node src/db-source.ts",
+    "start:ts-node-esm": "ts-node-esm src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tsconfig/node16": "^1.0.4",
+    "@types/fs-extra": "^11.0.1",
+    "@types/node": "^20.1.5",
+    "fs-extra": "^11.1.1",
+    "knex": "^2.5.1",
+    "pg": "^8.11.3",
+    "yjs": "^13.6.7"
+  }
+}
